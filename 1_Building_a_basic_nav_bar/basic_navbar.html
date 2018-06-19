@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="G:\Myself\Essentials\Learning\Freecodecamp\Fonts and sources\fontawesome-free-5.0.13\fontawesome-free-5.0.13\web-fonts-with-css\css\fontawesome-all.css">
+    <style >
+    * { margin: 0;
+        padding: 0;}
+    .container {  display: grid;
+
+                  grid-template-columns:  repeat(12, 1fr);
+                  grid-template-rows:  46px ;
+                  background-color:  #1A2C38;   }
+
+    .header { grid-column: 1/13; }
+    .website-nav { height: 100%;}
+    .website-nav-list { height: 100%;
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        color: #00E2B0; }
+    .n-anchor {
+                text-decoration: none;
+                 color: #00E2B0;}
+   .t-cursor { cursor: pointer;}
+    .t-cursor:hover, .n-anchor:hover { color: #F2CC09;}
+    </style>
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="website-nav">
+          <ul class="website-nav-list">
+            <li class="android t-cursor"><a href="#" class="n-anchor">Android</a> <i class="fab fa-android"></i></li>
+            <li class="windows t-cursor"><a href="#" class="n-anchor">Windows</a> <i class="fab fa-windows"></i></li>
+            <li class="linux t-cursor"><a href="#" class="n-anchor">Linux</a> <i class="fab fa-linux"></i> </li>
+            <li class="coding t-cursor" ><a href="#" class="n-anchor">Coding</a> <i class="far fa-file-code"></i></li>
+            <li class="hardware t-cursor"><a href="#" class="n-anchor">Hardware</a> <i class="fas fa-wrench"></i></li>
+          </ul>
+        </nav>
+      </header>
+
+    </div>
+  </body>
+</html>
